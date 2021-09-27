@@ -1,0 +1,43 @@
+{
+  "name": "vue3-elm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .vue,.js,.html ./",
+    "lint:fix": "eslint --fix --ext .vue,.js,.html ./",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.4",
+    "vant": "^3.2.2",
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "husky": "^7.0.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.3.2",
+    "vite": "^2.5.1",
+    "vite-plugin-style-import": "^1.2.1"
+  }
+}
