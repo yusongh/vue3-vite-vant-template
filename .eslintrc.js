@@ -77,52 +77,5 @@ module.exports = {
     'spaced-comment': ['error', 'always'], // 注释后面必须跟随至少一个空白
     'object-curly-spacing': 0,
     'no-unused-expressions': 0
-
-    /**
-     * vue
-     */
-    // 'vue/no-v-html': 0,
-    // 'vue/valid-v-model': 0,
-    // 'vue/no-dupe-keys': 0,
-    // 'vue/order-in-components': [
-    //   'error',
-    //   {
-    //     order: [
-    //       'el',
-    //       'name',
-    //       'key',
-    //       'parent',
-    //       'functional',
-    //       ['delimiters', 'comments'],
-    //       ['components', 'directives', 'filters'],
-    //       'extends',
-    //       'mixins',
-    //       ['provide', 'inject'],
-    //       'ROUTER_GUARDS',
-    //       'layout',
-    //       'middleware',
-    //       'validate',
-    //       'scrollToTop',
-    //       'transition',
-    //       'loading',
-    //       'inheritAttrs',
-    //       'model',
-    //       'emits',
-    //       ['props', 'propsData'],
-    //       'setup',
-    //       'asyncData',
-    //       'data',
-    //       'fetch',
-    //       'head',
-    //       'computed',
-    //       'watch',
-    //       'watchQuery',
-    //       'LIFECYCLE_HOOKS',
-    //       'methods',
-    //       ['template', 'render'],
-    //       'renderError'
-    //     ]
-    //   }
-    // ]
   }
 }

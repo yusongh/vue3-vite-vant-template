@@ -15,8 +15,9 @@ export const getCaptchas = () => {
  * 账号密码登录
  */
 export const accountLogin = (username, password, captcha_code) => {
-  return request.post({
-    url: 'login',
+  return request({
+    url: '/v2/login',
+    method: 'post',
     data: {
       username,
       password,
