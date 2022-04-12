@@ -17,8 +17,8 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "axios": "^0.21.4",
-    "vant": "^3.2.2",
-    "vue": "^3.2.6",
+    "vant": "^3.4.7",
+    "vue": "^3.2.32",
     "vue-router": "^4.0.11",
     "vuex": "^4.0.2"
   },
@@ -38,6 +38,6 @@
     "postcss-pxtorem": "^6.0.0",
     "prettier": "^2.3.2",
     "vite": "^2.5.1",
-    "vite-plugin-style-import": "^1.2.1"
+    "vite-plugin-style-import": "^1.4.1"
   }
 }

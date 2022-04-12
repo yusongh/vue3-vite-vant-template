@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
-import styleImport from 'vite-plugin-style-import'
+import styleImport, { VantResolve } from 'vite-plugin-style-import'
 import postCssPxToRem from 'postcss-pxtorem'
 
 export default defineConfig({
@@ -16,13 +16,7 @@ export default defineConfig({
   plugins: [
     vue(),
     styleImport({
-      libs: [
-        {
-          libraryName: 'vant',
-          esModule: true,
-          resolveStyle: name => `vant/es/${name}/style`
-        }
-      ]
+      resolves: [VantResolve()]
     })
   ],
   // Vite自身已经集成PostCSS，无需再次安装。另外也无需单独创建PostCSS配置文件，已集成到vite.config.js的css选项中
